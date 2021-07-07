@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{92fb6b9e-8e40-46e5-b97b-357cb19519b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BBungGrid">
+      <UniqueIdentifier>{43c9cedc-6384-4442-82c0-ed943921d305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{c38e4524-2b94-4386-9ee1-adc96b6f4a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dialog\Main">
+      <UniqueIdentifier>{d962e973-9d6a-4a0e-b322-7f626b1b7b84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BBungGridExampleDlg.h">
+      <Filter>Dialog\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="BBungGridExample.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="BBungGrid.h">
+      <Filter>BBungGrid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BBungGridExample.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="BBungGridExampleDlg.cpp">
+      <Filter>Dialog\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="BBungGrid.cpp">
+      <Filter>BBungGrid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BBungGridExample.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BBungGridExample.rc2">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BBungGridExample.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
